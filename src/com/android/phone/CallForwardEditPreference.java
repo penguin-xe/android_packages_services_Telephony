@@ -127,6 +127,7 @@ public class CallForwardEditPreference extends EditPhoneNumberPreference {
 
         mExtTelephonyManager = ExtTelephonyManager.getInstance(getContext());
 
+        setContactPickerEnabled(false);
         Log.d(LOG_TAG, "mServiceClass=" + mServiceClass + ", reason=" + reason);
     }
 
